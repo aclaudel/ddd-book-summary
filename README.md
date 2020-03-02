@@ -152,3 +152,39 @@ Diagrams should be small, simple and focused, they represent the skeleton of ide
 **The vital detail about the design is captured in the code**.
 Diagrams and documents can guide people and natural language discussion can fill nuances of meaning.
 **The model is not a the diagram**, the diagram help in explaining the model. 
+
+### Written Design Documents
+
+#### Documents should complement Code and Speech
+
+XP tends to remove any written documents and mostly rely on code.
+Written documents have no impact on behaviour and can easily lie and become outdated.
+On the other hand, spoken communication is ephemeral and can't really create confusion.
+
+The limit of this is that code can overwhelm the reader with a lot of details.
+Although the behaviour is unambiguous, that doesn't mean that it's obvious.
+Then we end up with the same problem as with a detailed UML diagram, it's hard to clearly express the intent.
+
+Extra documents should aim to illuminate meaning and focus attention on core elements.
+It clarifies design intents but *shouldn't try to do what the code already does well*.
+
+#### Documents should work for a living and stay current 
+
+Design documents should explain core concepts of the model, help in navigating the detail of the code and give
+insight into the model's intended style of use.
+
+The document must be involved in project activities.
+That is, the document should be written using the *current* language the team uses (spoken and written languages).
+If the terms explained in the document aren't synced, then the document is incorrect.
+Maybe it's too big or complicated, or not focused enough.
+People are either not reading it or not finding it compelling.
+*If it has no impact on the ubiquitous language, then something is wrong*.
+
+An outdated document should either be archived or updated.
+But if the document is not playing an important role, effort might be wasted while trying to keep it up to date. 
+
+Thanks to the ubiquitous language, specifications can be more concise and less ambiguous.
+Scenarios can directly use the model and clearly express the intent,
+without having to convey the business knowledge that lies behind the model.
+By keeping minimal documents, they are complementing code and conversation and can easily stay connected to the project.
+  
