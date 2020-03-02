@@ -133,4 +133,22 @@ Multiplicity of languages is often necessary but the linguistic division should 
 be between the domain experts and the developers. 
 Technical jargon / advanced business terms are **extensions** of the language and one shouldn't replace the other.
 
-![languages-extensions](https://comment-it.co.uk/wp-content/uploads/2018/01/ubiquitous-language.png)   
+![languages-extensions](https://comment-it.co.uk/wp-content/uploads/2018/01/ubiquitous-language.png)
+
+### Documents and Diagrams
+
+UML diagrams are useful when discussing software design.
+However people tend to add too many details in their diagrams, making them
+very hard to read and stay focused on the central concept.
+
+In this case, UML is used to precisely model the domain, constraining the team to the UML syntax.
+Details like constraints, assertions or even comments are added around objects and overwhelm the reader with
+unneeded information.
+
+UML is *not* a programming language and should only be used as a mean of communication and explanation, facilitating
+brainstorming.
+Diagrams should be small, simple and focused, they represent the skeleton of ideas.
+
+**The vital detail about the design is captured in the code**.
+Diagrams and documents can guide people and natural language discussion can fill nuances of meaning.
+**The model is not a the diagram**, the diagram help in explaining the model. 
