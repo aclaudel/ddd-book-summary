@@ -188,3 +188,30 @@ Scenarios can directly use the model and clearly express the intent,
 without having to convey the business knowledge that lies behind the model.
 By keeping minimal documents, they are complementing code and conversation and can easily stay connected to the project.
   
+### Executable Bedrock
+
+Relying mostly on the executable code and tests can be risky.
+Even though the behaviour is inescapable, the communication is not guaranteed to be accurate.
+
+The main reason for that is naming. Method or variable names can be misleading, ambiguous or outdated.
+It requires a lot of disciple to not only write a code that doesn't just **do** the right thing but also
+**says** the right thing.
+
+To communicate effectively, the code must be based on the same language used
+to write the requirements, that is the same language that the developers speak
+with each other and with domain experts.
+
+### Explanatory Models
+
+Models can be valuable as education aids to teach about the domain.
+The model that drives the design is only one view of the domain, 
+but it may aid learning to have other views, for educational purpose only, 
+to communicate general knowledge oof the domain.
+
+The models are free to use whatever style they want, like visual metaphor for example.
+They don't (and maybe shouldn't) be object models, like strict UML, in order to avoid
+a false impression of correspondence with the software design.
+
+Example: Instead of using a UML object diagram, you could hand-draw the workflow 
+and add some comments using natural language.
+  
