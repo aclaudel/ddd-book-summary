@@ -94,3 +94,49 @@ A change in the language is a change to the model.
 Confusion, awkwardness or inadequate terms to convey domain understanding should
 be fixed by domain experts.
 Developers on the other hand should watch for ambiguity and inconsistency.
+
+### Modeling out Loud
+
+Play with the model as you talk about the system.
+
+Describe scenarios out loud using the elements and interactions of the model,
+combining concepts in ways allowed by the model.
+Find easier ways to say what you need to say and take those new ideas back down the diagrams and code.
+
+#### Example: Vague and technical
+
+If we give to *Routing Service* an origin, destination and arrival time, it can look up the stops
+the cargo will have to make and stick them in the database.
+
+#### Example: More complete but verbose
+
+The origin, destination and so on.. it all feeds into the Routing Service and we get back an Itinerary 
+that has everything we need in it.
+
+#### Example: concise
+
+A Routing Service finds an Itinerary that satisfies a Route Specification. 
+
+### One Team, One Language
+
+Technical people often feel the need to **shield** domain experts from the domain model.
+
+- Too abstract for them
+- They don't understand objects
+- We have to collect requirements in their terminology
+
+**If sophisticated domain experts don't understand the model, there is something wrong with the model.**
+
+When using the same language, developers and domain experts can informally test the model
+by walking through scenarios, using the model objects step-by-step.
+Almost every discussion is an opportunity for developers and user experts to play with model together,
+deepening each other's understanding and refining concepts as they go.  
+The domain experts can use the language of the model in writing use case,
+and can work even moore directly with the model by specifying acceptance tests. (BDD)
+
+Multiplicity of languages is often necessary but the linguistic division should *never* 
+be between the domain experts and the developers. 
+
+Technical jargon / advanced business terms are **extensions** of the language and one shouldn't replace the other.
+
+![languages-extensions](https://comment-it.co.uk/wp-content/uploads/2018/01/ubiquitous-language.png)   
