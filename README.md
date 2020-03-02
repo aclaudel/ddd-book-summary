@@ -4,17 +4,17 @@
 
 ### Effective Modeling
 
-1. Binding model and implementation
-2. Cultivating a language based on the model
+- Binding model and implementation
+- Cultivating a language based on the model
   - Anyone can take and understand the model and being unambiguously understood
   - "Domain sentences" must be consistent with the structure of the model
-3. Developing a knowledge-rich model
+- Developing a knowledge-rich model
   - The model is not a data-schema
   - Object contains behaviour
-4. Distilling the model
+- Distilling the model
   - Concepts should be dropped if not useful nor central
   - An unneeded concept tied to an important should lead to a model refactor without the unneeded one
-5. Brainstorming and experimenting
+- Brainstorming and experimenting
   - Many models should be produced and tested
   - Eventually, the team will be able to quickly detect the validity / awkwardness of a model
 
