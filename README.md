@@ -96,11 +96,10 @@ Developers on the other hand should watch for ambiguity and inconsistency.
 
 ### Modeling out Loud
 
-Play with the model as you talk about the system.
-
-Describe scenarios out loud using the elements and interactions of the model,
-combining concepts in ways allowed by the model.
-Find easier ways to say what you need to say and take those new ideas back down the diagrams and code.
+> Play with the model as you talk about the system.  
+> Describe scenarios out loud using the elements and interactions of the model,
+> combining concepts in ways allowed by the model.
+> Find easier ways to say what you need to say and take those new ideas back down the diagrams and code.
 
 #### Examples
 
