@@ -52,14 +52,13 @@ If the model changes, the implementation should be refactored.
 
 #### Example: Extract a Hidden Concept.
 
-Sometimes, business rules are written in a cryptic if statement.
+Sometimes, business rules are written in a cryptic `if` statement.
 
 - Domain expert can't verify nor read it because it's too technical
 - Developers / analysts will struggle to understand the concept behind the rule.
 
-We can extract the if to a dedicated, well-named class responsible for validating the business rule.
-
-Therefore the code is readable by everyone and the domain is clearly expressed.
+We can extract the `if` to a dedicated, well-named class responsible for validating the business rule.
+Hence the code will be readable by everyone and the domain clearly expressed.
 
 ## Chapter 2: Communication and the Use of Language
 
@@ -67,11 +66,11 @@ Therefore the code is readable by everyone and the domain is clearly expressed.
 
 #### Different languages
 
-A project faces serious problems when its language is fractured
+A project faces serious problems when its language is fractured.
 
 Domain experts and developers are using a different language.
 Therefore, day-to-day discussions is disconnected from the terminology embedded in the code.
-Even developers have different language in speech and writing.
+Even developers use different languages, one when talking to the team and an other when writing code.
 
 Translation blunts communication and makes knowledge crunching anemic.
 Team members are constantly translating concepts to their own language.
@@ -87,7 +86,7 @@ Use the model as the backbone of a language.
 The team should extensively use the model, whether for speech or writing.
 
 Difficulties in formulating sentencing should lead to new model alternatives,
-which will eventually require a refactor of class, methods and modules refactor,
+which will eventually require a class, method or module refactor,
 in order to conform with the new model.
 A change in the language is a change to the model.
 
@@ -102,6 +101,8 @@ Play with the model as you talk about the system.
 Describe scenarios out loud using the elements and interactions of the model,
 combining concepts in ways allowed by the model.
 Find easier ways to say what you need to say and take those new ideas back down the diagrams and code.
+
+#### Examples
 
 - If we give to **Routing Service** an origin, destination and arrival time, it can look up the stops
 the cargo will have to make and stick them in the database. (*vague and technical*)
@@ -141,7 +142,7 @@ UML diagrams are useful when discussing software design.
 However people tend to add too many details in their diagrams, making them
 very hard to read and stay focused on the central concept.
 
-In this case, UML is used to precisely model the domain, constraining the team to the UML syntax.
+When this is the case, UML is used to precisely model the domain, constraining the team to the UML syntax.
 Details like constraints, assertions or even comments are added around objects and overwhelm the reader with
 unneeded information.
 
@@ -163,7 +164,7 @@ On the other hand, spoken communication is ephemeral and can't really create con
 
 The limit of this is that code can overwhelm the reader with a lot of details.
 Although the behaviour is unambiguous, that doesn't mean that it's obvious.
-Then we end up with the same problem as with a detailed UML diagram, it's hard to clearly express the intent.
+Then we end up with the same problem as with a detailed UML diagram, it's hard to clearly express / understand the intent.
 
 Extra documents should aim to illuminate meaning and focus attention on core elements.
 It clarifies design intents but *shouldn't try to do what the code already does well*.
@@ -206,11 +207,11 @@ with each other and with domain experts.
 Models can be valuable as education aids to teach about the domain.
 The model that drives the design is only one view of the domain, 
 but it may aid learning to have other views, for educational purpose only, 
-to communicate general knowledge oof the domain.
+to communicate general knowledge of the domain.
 
 The models are free to use whatever style they want, like visual metaphor for example.
 They don't (and maybe shouldn't) be object models, like strict UML, in order to avoid
-a false impression of correspondence with the software design.
+a false impression of correspondence with the softwaxre design.
 
 Example: Instead of using a UML object diagram, you could hand-draw the workflow 
 and add some comments using natural language.
