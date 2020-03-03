@@ -216,3 +216,47 @@ a false impression of correspondence with the softwaxre design.
 Example: Instead of using a UML object diagram, you could hand-draw the workflow 
 and add some comments using natural language.
   
+## Chapter 3: Binding Model and Implementation
+
+### Model Driven Design
+
+Projects without any domain model will the domain is very simple, as they will have the advantages of 
+knowledge crunching and communication (because the code is the only source of truth).
+However, a complex domain will swamp them.
+
+Many complex projects have some domain models, but they become quickly irrelevant and misleading
+as they don't maintain a tight connection with the code.
+These domain model are often called *analysis* model.
+
+> If the design, or some central part of it, does not map to the domain model,
+> that model is of little value, and the correctness of the software is suspsect.
+> At the same time, complex mappings between models and design functions are difficult to understand and, 
+> in practice, impossible to maintain as the design changes.  
+> A deadly divide opens between analysis and design so that insight gained in each of 
+> those activities does not feed into the other.
+
+Model Driven Design discards the dichotomy of analysis model and design to search out
+a single model that serves both purposes.
+The binding between model and design shouldn't come at the cost of weakened design nor analysis.
+
+That means, a model should be discarded if:
+- It is not practical for implementation
+- It doesn't faithfully express the key concepts of the domain
+
+The modeling and design process then becomes a single iterative loop.
+It will require more effort, but eventually, the produces model will be **relevant**.
+
+> Design a portion of the software system to reflect the domain model in a very literal way,
+> so that mapping is obvious.  
+> Revisit the model and modify it to be implemented more naturally in software, 
+> even as you seek to make it reflect deeper insight into the domain.  
+> Demand a single model that serves booth purposes well, in addition to
+> supporting a robust ubiquitous language.
+> 
+> Draw from the model the terminology used in the design and the basic assignment of
+> responsibilities. 
+> The code becomes an expression of the model, so a change to the code may be a change to the model.
+> Its effect must ripple through the rest of the project's activities accordingly. 
+> To tie the implementation slavishly to a model usually requires software
+> development tools and languages that support a modeling paradigm, such as OOP.
+
