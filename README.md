@@ -1,4 +1,4 @@
-# Domain driven design - part 1
+# Putting the domain model to work 
 
 ## The utility of a Model in DDD
 
@@ -335,3 +335,6 @@ developers, domain experts and the software.
 
 The result is software that provides rich functionality based on a fundamental understanding of the core domain.
 As mentioned, success with Model driven design is sensitive too detailed design decisions.
+
+
+# The building blocks of a Model driven design
