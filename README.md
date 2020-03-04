@@ -237,8 +237,8 @@ and add some comments using natural language.
 
 ### Model Driven Design
 
-Projects without any domain model will the domain is very simple, as they will have the advantages of 
-knowledge crunching and communication (because the code is the only source of truth).
+Projects that have no domain model at all, but just write code to fulfill one function after another,
+gain few of the advantages of knowledge crunching and communication.
 However, a complex domain will swamp them.
 
 Many complex projects have some domain models, but they become quickly irrelevant and misleading
