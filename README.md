@@ -259,3 +259,61 @@ It will require more effort, but eventually, the produces model will be **releva
 > To tie the implementation slavishly to a model usually requires software
 > development tools and languages that support a modeling paradigm, such as OOP.
 
+### Hands-on Modelers
+
+#### Manufacturing
+
+Manufacturing is a popular metaphor in software development.
+- Highly skilled engineers design
+- Less skilled laborers assemble the products
+
+Most of the projects tend to over-separate responsibilities, such as design / modeling and programming.
+Managers think that modelers (ex: architects) should only to work on the design,
+and that programming would be a waste of their skills.
+In practice, this leads to the loss of the model in the implementation.
+
+Developers lack support from modelers and the model is only used as a mere data structure.  
+Instead of closely work with modelers and define the correct abstractions, the developers
+are going to create their own and focus only on trying to make the software work.
+
+Modelers on the other hand may produce models that are hard to implement.
+Developers will then be forced to find a workaround, because they can't question the model made by
+the architect in the ivory tower. 
+
+> If the people who write the code do not feel responsible for the model, or don't understand
+> how to make the model work for an application, then the model has nothing to do with the software.
+> If developers don't realize that changing code changes the model, then their refactoring
+> will weaken the model rather than strengthen it.
+>      
+> Meanwhile, when a modeler is separated from the implementation process, he or she never acquires,
+> or quickly loses, a feel for the constraints of the implementation.
+> The basic constraint of MDD - that the model supports an effective implementation and abstract
+> key domain knowledge - is half-gone, and the resulting models will be impractical.
+>
+> Finally, the knowledge and skills of experienced designers won;t be transferred to other developers 
+> if the division of labor prevents the kind of collaboration that conveys the subtleties of coding a MDD
+
+The need for hands-on modelers does not mean that team members cannot have specialized roles.
+The problem arises from separating two tasks that are coupled, that is modeling and implementation.
+The effectiveness of an overall design is very sensitive to the quality and consistency of 
+fined-grained design and implementation decisions.
+A portion of the code is an expression of the model; changing that code changes the model.
+
+> Any technical person contributing to the model must spend some time touching the code,
+> whatever primary role he or she plays on the project.
+> Anyone responsible for changing code must learn to express a model through the code.  
+> Every developer must be involved in some level of discussion about the model and have
+> contact with domain experts.  
+> Those who contribute in different ways must consciously engage those who touch the code 
+> in a dynamic exchange of model ideas through the ubiquitous language.
+
+## Conclusion
+
+Domain driven design puts a model to work to solve problems for an application.
+Through knowledge crunching, a team distills a torrent of chaotic information into a practical model.  
+A Model driven design intimately connects the model and the implementation.
+The ubiquitous language is the channel for all that information to flow between 
+developers, domain experts and the software.
+
+The result is software that provides rich functionality based on a fundamental understanding of the core domain.
+As mentioned, success with Model driven design is sensitive too detailed design decisions.
