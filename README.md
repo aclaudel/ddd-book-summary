@@ -1,5 +1,23 @@
 # Domain driven design - part 1
 
+## The utility of a Model in DDD
+
+- *The model and the heart of the design shape each other.*
+  The intimate link between the model and the implementation makes the model relevant.
+  This binding will also help during maintenance and continuous development, because the code
+  can be interpreted based on understanding the model
+  
+- *The model is the backbone of a language used by all team members*.
+  Because of the binding between model and implementation, developers can talk about the program,
+  with domain experts, without any translation.
+  Because the the language is based ono the model, our natural linguistic abilities
+  can be turned to refining the model itself.
+  
+- *The model is distilled knowledge*
+  A model captures how we choose to think about the domain as we select terms, break down concepts,
+  and relate them.
+  The shared language allows effective collaboration between developers and domain experts.
+
 ## Chapter 1: Crunching knowledge
 
 ### Effective Modeling
