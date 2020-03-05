@@ -105,7 +105,7 @@ None of these dialects can be a common language because none serves all needs.
 Use the model as the backbone of a language.
 The team should extensively use the model, whether for speech or writing.
 
-Difficulties in formulating sentencing should lead to new model alternatives,
+Difficulties in formulating sentences should lead to new model alternatives,
 which will eventually require a class, method or module refactor,
 in order to conform with the new model.
 A change in the language is a change to the model.
