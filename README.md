@@ -10,7 +10,7 @@
 - *The model is the backbone of a language used by all team members*.
   Because of the binding between model and implementation, developers can talk about the program,
   with domain experts, without any translation.
-  Because the the language is based ono the model, our natural linguistic abilities
+  Because the language is based on the model, our natural linguistic abilities
   can be turned to refining the model itself.
   
 - *The model is distilled knowledge*
