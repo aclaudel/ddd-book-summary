@@ -1,3 +1,5 @@
+If you like green, here is another version: https://aclaudel.github.io/ddd-book-summary/
+
 # Putting the domain model to work 
 
 ## The utility of a Model in DDD
