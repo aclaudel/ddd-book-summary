@@ -343,7 +343,7 @@ As mentioned, success with Model driven design is sensitive too detailed design 
 
 ## Chapter 11: Applying Analysis Patterns
 
-nothing interesting.
+Apply analysis pattern, don't ask.
 
 ## Chapter 12: Relating Design Patterns to the Model
 
@@ -463,6 +463,8 @@ Parts of the design are made suppler, perhaps taking on a declarative style.
 
 # IV - Strategic Design (first run)
 
+## Introduction
+
 This part of the book presents principles that enable the modeling process to scale up to very complicated domains.
 
 The goal of the most ambitious enterprise system is a tightly integrated system spanning the entire business.
@@ -482,8 +484,26 @@ They must focus the model to capture the conceptual core of the system, the *vis
 *And they must do all this without bogging the projct down*.
 
 To help accomplish these goals, there are three themes: context, distillation and large-scale structure.
+These three principles are useful separately but particularly powerful taken together and helps to produce good designs.
 
-*Context*. A successful model has to be logically coonsistent throughout, without contradictory or overlapping definitions.
+### Context
+
+A successful model has to be logically coonsistent throughout, without contradictory or overlapping definitions.
 Unifiying integrated subsystems and distinct applications with various origins and domain views can be tricky.  
 By explictitely definings **Bounded Context** withing which a model applies and then,
 when necessary, defining its relationship with other contexts, the modeler can avoid bastardizing the model.
+
+### Distillation
+
+Often, a lot of efforts are spent on peripheral issues of the domain.
+The system should be designed in order to give as much power as possible to the most valuable features.
+This focus not only helps to direct efforts toward vital parts of the system, but it keeps the vision 
+of the system from being lost.
+
+Strategic distillation can bring clarity to a large model and with a clearer view,
+the design of the core domain can be made more useful.
+
+### Large-scale structure
+
+System-wide design elements and patterns, don't ask.
+
