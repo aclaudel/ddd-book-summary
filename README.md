@@ -1,6 +1,6 @@
 If you like green, here is another version: https://aclaudel.github.io/ddd-book-summary/
 
-# Putting the domain model to work 
+# I - Putting the domain model to work 
 
 ## The utility of a Model in DDD
 
@@ -339,7 +339,7 @@ The result is software that provides rich functionality based on a fundamental u
 As mentioned, success with Model driven design is sensitive too detailed design decisions.
 
 
-# Refactoring Toward Deeper Insight (first run)
+# III - Refactoring Toward Deeper Insight (first run)
 
 ## Chapter 11: Applying Analysis Patterns
 
@@ -460,3 +460,31 @@ From that viewpoint, they can conceive a far better one.
 Refactoring toward deeper insight is a continuing process.
 Implicit concepts are recognized and made explicit.
 Parts of the design are made suppler, perhaps taking on a declarative style.
+
+# IV - Strategic Design (first run)
+
+This part of the book presents principles that enable the modeling process to scale up to very complicated domains.
+
+The goal of the most ambitious enterprise system is a tightly integrated system spanning the entire business.
+Yet the entire business model for almost any such organization is too large and complex to manage or even
+understand as a single unit.
+The system must be broken down into smaller parts, in both concept and implementation.
+The challenge is to accomplish this modularity *without losing the benefits of integration*.
+
+A monolithic, all-encompassing domain model will be unwieldy and loaded with subtle duplications and contradictions.
+A set of small, distinct subsystems glued together with ad-hoc interfaces will lack the power
+to solve enterprise-wide problems and allows consistency problems to arise at every integration point.  
+The pitfalls of both extremes can be avoided with a systematic, evolving design strategy.
+
+Strategic design must guide design decisions to reduce the interdependence of parts and improve clarity
+without losing critical interoperability and synergy.
+They must focus the model to capture the conceptual core of the system, the *vision* of the system.
+*And they must do all this without bogging the projct down*.
+
+To help accomplish these goals, there are three themes: context, distillation and large-scale structure.
+
+*Context*. A successful model has to be logically coonsistent throughout, without contradictory or overlapping definitions.
+Unifiying integrated subsystems and distinct applications with various origins and domain views can be tricky.  
+By explictitely definings **Bounded Context** withing which a moodel applies and then,
+when necessary, defining its relationship with other contexts,
+the modeler can avoid bastardizing the model.
