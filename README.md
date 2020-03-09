@@ -339,4 +339,22 @@ The result is software that provides rich functionality based on a fundamental u
 As mentioned, success with Model driven design is sensitive too detailed design decisions.
 
 
-# The building blocks of a Model driven design
+# Refactoring Toward Deeper Insight (first run)
+
+## Chapter 11: Applying Analysis Patterns
+
+nothing interesting.
+
+## Chapter 12: Relating Design Patterns to the Model
+
+Even tought most of the patterns from the book *Design Patterns* are technical, 
+some of them can be applied to a broader context of domain modeling and design.
+
+Here is the definition from *Design Patterns*: 
+> The design patterns in this book are descriptions of communicating objects and classes
+> that are customized to solve a general design problem in a particular context.
+
+When using a technical pattern in the domain layer, we have to add an additional motivation,
+an other layer of meaning.  
+For example, if the pattern *Strategy* corresponds to an actual business strategy (ex: policies),
+the pattern becomes more than just a useful implementation technique.
