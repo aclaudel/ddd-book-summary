@@ -358,3 +358,48 @@ When using a technical pattern in the domain layer, we have to add an additional
 an other layer of meaning.  
 For example, if the pattern *Strategy* corresponds to an actual business strategy (ex: policies),
 the pattern becomes more than just a useful implementation technique.
+
+## Chapter 13: Refactoring Toward Deeper Insight
+
+There are three things you have to focus on:
+- Live in the domain
+- Keep looking at things a different way
+- Maintain an unbroken dialog with domain experts
+
+The classic refactoring scenario is two developers, looking at the code and changing it on the fly.
+This practice should happen all the time, but it isn't the whole story.
+
+### Initiation
+
+Refactoring can begin in many ways, it may be a response to a problem in the code (complexity or awkwardness).
+But instead of just immediately refactoring the code, developers sense that the root of the problem is in the domain model.
+Perhaps a concept is missing, maybe some relationship is wrong.
+
+This means that the refactoring could occur, even if the code is clean and tidy,
+just because the language seems disconnected from the domain experts
+or new requirements are not fitting in naturally.
+It might result from learning, as a developer who has gained deeper understanding
+of the domain and see an opportunity to improve the model.
+
+### Exploration Teams
+
+The next step is to seek refinement that will make the model communicate clearly and naturally.
+This might require only some modest change and take few hours.
+However sometimes, finding a new model may require more time and involve more people.
+
+In that case, it's a good idea to pick a couple of developers with strong problem solving skills
+or who know the model well.
+Be sure to include a domain expert, find a coffee shop and brainstorm for around an hour.
+Sketch some UML diagrams, walk through scenarios, the goal is to find an understandable and useful model.
+
+After that, you can either go back and code some prototypes, or have some sleep to think about it
+and go throught the same exercise again.
+
+There are few keys to keep this productive:
+- *Self-determination*. A small team, assembled on the fly to explore a design problem only for a few days.
+  No need for long-term, elaborate organizational structures.
+- *Scope and sleep*. Two or three short meetings spaced out over a few days.
+  If you get stuck, you may be taking too much at once.
+- *Execising the ubiquitous language*. Involving other team members creates an opportunity
+  to exercise and refine the ubiquitous language.
+  The end result is a refinement of that language which the developer will take back and formalize in code.
