@@ -403,3 +403,60 @@ There are few keys to keep this productive:
 - *Execising the ubiquitous language*. Involving other team members creates an opportunity
   to exercise and refine the ubiquitous language.
   The end result is a refinement of that language which the developer will take back and formalize in code.
+
+### A design for Developers
+
+Software isn't just for users, it's also for developers.
+Developers change the code again and again while refactoring, which should lead to a supple design.
+A supple design communicates its intent.
+
+It makes easy to anticipate the effect of running code and therefore easy to anticipate
+consequences of changing it.
+It helps limit mental overload, by reducing dependencies and side effects.
+It is based on a deep model of the domain that is fine-grained only where most critical to the users.
+
+This makes for *flexibility* where change is mot common and *simplicity* elsewhere.
+
+### Timing
+
+*If you wait until you can make a complete justification for a change, you've waited too long.*  
+Continuous refactoring has come to be considered as best practice, but most teams are still cautious about it.
+
+It's easy to see the risk of changing code and the cost of developer time to make the change.
+It's harder to see the risk of keeping an awkward design and the cost of working around it.
+Developers are often asked to justify their decision to refactor, but it's not always simple.
+
+Refactoring toward deeper inshight needs to become part of the ongoing exploration of the domain,
+the education of the developers and the meeting of the minds of developers and domaine experts.
+Refactor when:
+- The design does not express the current understanding of the domain.
+- Important concepts are implicit in the design (and you see a way of making them explicit)
+- You seee an opportunity to make some important part of the design suppler.
+
+This aggressive attitude does not justify any change at any time.  
+Don't refactor a day before relase, don't try to demonstrate your technical skills
+nor try to push a model that domain experts struggle to understand.
+
+Don't be absolute, but push beyond the comfort zone in the direction of favoring refactoring.
+
+### Crisis as Opportunity
+
+Punctuated equilibrium (Charles Darwin):
+*Long periods of gradual change or stability are interrupted by relatively short bursts of rapid change.
+Then things settle down into a new equilibrium.*
+
+Classic refactoring sound steady, refactoring toward deeper insight usually isn't.
+A period of steady refinement of a model can suddendly bring you to an insight that shakes up everything.
+
+Such a situation ofthen does not look like an opportunity: it seems more like a crisis.
+Suddenly, there is some obious inadequacy with the model. 
+There is a gaping hole in what it can be express, or some critical area where it is opaque.
+Maybe it makes statements that are just wrong.
+
+This means the team has reached a new level of understanding.
+From their now-elevated viewpoint, the old model looks poor.
+From that viewpoint, they can conceive a far better one.
+
+Refactoring toward deeper insight is a continuing process.
+Implicit concepts are recognized and made explicit.
+Parts of the design are made suppler, perhaps taking on a declarative style.
