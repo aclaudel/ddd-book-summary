@@ -485,6 +485,5 @@ To help accomplish these goals, there are three themes: context, distillation an
 
 *Context*. A successful model has to be logically coonsistent throughout, without contradictory or overlapping definitions.
 Unifiying integrated subsystems and distinct applications with various origins and domain views can be tricky.  
-By explictitely definings **Bounded Context** withing which a moodel applies and then,
-when necessary, defining its relationship with other contexts,
-the modeler can avoid bastardizing the model.
+By explictitely definings **Bounded Context** withing which a model applies and then,
+when necessary, defining its relationship with other contexts, the modeler can avoid bastardizing the model.
