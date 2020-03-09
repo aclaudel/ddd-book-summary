@@ -503,7 +503,7 @@ of the system from being lost.
 Strategic distillation can bring clarity to a large model and with a clearer view,
 the design of the core domain can be made more useful.
 
-### Large-scale structure
+### Large Scale Structure
 
 System-wide design elements and patterns, don't ask.
 
