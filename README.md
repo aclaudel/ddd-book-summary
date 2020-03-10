@@ -33,7 +33,7 @@ If you like green, here is another version: https://aclaudel.github.io/ddd-book-
   - Object contains behaviour
 - Distilling the model
   - Concepts should be dropped if not useful nor central
-  - An unneeded concept tied to an important should lead to a model refactor without the unneeded one
+  - An unneeded concept tied to an important one should lead to a model refactor without the unneeded one
 - Brainstorming and experimenting
   - Many models should be produced and tested
   - Eventually, the team will be able to quickly detect the validity / awkwardness of a model
