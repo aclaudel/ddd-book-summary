@@ -507,3 +507,41 @@ the design of the core domain can be made more useful.
 
 System-wide design elements and patterns, don't ask.
 
+## Chapter 14: Maintaining Model Integrity
+
+Story:
+- Two teams on the same project.
+- One team has created an object.
+- The other one was about to create another object with the same name. So they re-used it instead.
+- They renamed a field and had to ignore many uneeded associations, but it was fine.
+- Eventually after a few time, the program started to crash at this specific area of code.
+
+The code in the same object was contradictory.
+The problem was that these two groups had *different models*, but they did not realize it, 
+and there were no process to detect it.
+ 
+*The most fundamental requirement of a model is that it should internaly consistent; its terms always
+have the same meaning, and it contains no contradictory rules.*. 
+The internal consistency of a model, such as each term is unambiguous and no rules contradict, is called *unification*.
+A model is meaningless unless it is logically consistent.
+
+In an ideal world, the whole domain of the enterprise would be made of a single and consistent model.
+But the world of large systems development is not the ideal world.
+*Total unification of the domain moodel for a large system will not be feasible or cost-effective.*
+
+These are the risks you're exposed to when trying to build a single unified model:
+- Too many legacy replacements may be attempted at once
+- Large projects may bog down because the coordination overhead exceeds their abilities
+- Applications with specialized requirements may have to use models that don't fully statisfy their needs
+- Conversly, attempting to satisfy everyone with a single model may lead to a model difficult to use
+
+Model divergences can come from political / management fragementation.
+Hence, even when no technical factor prevents full integration, the project may still face multiple models.
+
+Therefore we need a way to mark the boundaries and relationships between different models.
+It all starts with mapping the terrain of the project:
+- A bounded context defines the range of applicability of each model
+- A context map gives a global overview of the project's contexts and their relationships
+- A continuous integration will keep the modoel unified.
+- Shared kenels can be added for closely allied contexts
+- Loosely coupled models can go *Separate Ways*.
