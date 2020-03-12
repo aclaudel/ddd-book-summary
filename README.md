@@ -448,7 +448,7 @@ Then things settle down into a new equilibrium.*
 Classic refactoring sound steady, refactoring toward deeper insight usually isn't.
 A period of steady refinement of a model can suddendly bring you to an insight that shakes up everything.
 
-Such a situation ofthen does not look like an opportunity: it seems more like a crisis.
+Such a situation often does not look like an opportunity: it seems more like a crisis.
 Suddenly, there is some obious inadequacy with the model. 
 There is a gaping hole in what it can be express, or some critical area where it is opaque.
 Maybe it makes statements that are just wrong.
